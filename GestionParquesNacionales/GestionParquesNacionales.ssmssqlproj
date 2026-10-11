@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="GestionParquesNacionales">
+  <Items>
+    <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\SQLEXPRESS:">
+          <Created>2026-07-01T17:50:31.2243427-03:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Consulta</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="KERNELOS-PC\SQLEXPRESS:">
+          <Created>2026-06-30T16:30:17.19944-03:00</Created>
+          <Type>SQL</Type>
+          <Server>KERNELOS-PC\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>SQL</Authentication>
+          <InitialDB>ParquesNacionales</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>SQL Server Management Studio</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="TAMA\SQLEXPRESS:">
+          <Created>2026-07-02T14:07:19.909759-03:00</Created>
+          <Type>SQL</Type>
+          <Server>TAMA\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00_ReiniciarBDD.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>00_ReiniciarBDD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_CreacionTablasEsquemasYBdd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_CreacionTablasEsquemasYBdd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_SPEncriptacion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_SPEncriptacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_SPInsercion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_SPInsercion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_SPModificacion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_SPModificacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_SPBorrado.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05_SPBorrado.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_SPLogicaNegocio.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_SPLogicaNegocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_SPImportacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TAMA\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TAMA\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_SPImportacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_SPReportes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_SPReportes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_SPRoles.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09_SPRoles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_SPVaciarTablas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_SPVaciarTablas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_PruebasABM.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_PruebasABM.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_PruebasLogicaNegocio.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_PruebasLogicaNegocio.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_PruebasSeguridad.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13_PruebasSeguridad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_PoblarTablas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>14_PoblarTablas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_ImportarDatos.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>15_ImportarDatos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_PruebasReportes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>16_PruebasReportes.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Varios" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
